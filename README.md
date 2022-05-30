@@ -3,4 +3,4 @@
 
 <p align="center">
   <img scr="https://user-images.githubusercontent.com/80493617/171045354-d6d74072-cec5-4927-8fa8-8c46d514f1c3.gif">
-  </p>
+</p>
