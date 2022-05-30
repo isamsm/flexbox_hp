@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Righteous&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(46,46,46);
+    background: linear-gradient(90deg, rgba(46,46,46,1) 5%, rgba(67,94,173,1) 100%);
+}
+
+.hogwarts {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 45px;
+}
+
+.hogwarts_logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+}
+
+.hogwarts_p {
+    font-size: 20px;
+    font-family: 'Harry Potter', sans-serif;    
+    text-align: center;
+    color: #737fa5;
+    opacity: 0; 
+}
+
+.hogwarts_logo:hover .hogwarts_p {
+    opacity: 1;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos_casas {
+    display: flex;
+    gap: 30px;
+}
+
+.p_casas {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Nunito', sans-serif;
+    color: #ffffff;
+    width: 200px;
+    opacity: 0;
+}
+
+.gryff .p_casas strong {
+    color: #ff1313;
+}
+
+.gryff:hover .p_casas {
+    opacity: 1;
+}
+
+.raven .p_casas strong {
+    color: #6C86E2;
+}
+
+.raven:hover .p_casas {
+    opacity: 1;
+}
+
+.sly .p_casas strong {
+    color: #3cc43c;
+}
+
+.sly:hover .p_casas {
+    opacity: 1;
+}
+
+.huffle .p_casas strong {
+    color: #fadb54;
+}
+
+.huffle:hover .p_casas {
+    opacity: 1;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.teste {
+    width: 110px;
+    height: 60px;
+    background-color: #737fa5;
+    border: none;
+    box-shadow: 4px 5px 4px #212530;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif; 
+    color: #ffffff;
+}
+
+.teste:hover {
+    background-color: #646e90;
+    border-radius: 20px;
+}
