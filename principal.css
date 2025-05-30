@@ -45,7 +45,7 @@ img {
     opacity: 1;
 }
 
-.principal {
+.main {
     display: flex;
     justify-content: space-around;
 }
@@ -55,7 +55,7 @@ img {
     gap: 30px;
 }
 
-.p_casas {
+.p_house {
     display: flex;
     flex-flow: column wrap;
     text-align: center;
@@ -66,46 +66,47 @@ img {
     opacity: 0;
 }
 
-.gryff .p_casas strong {
+.gryff .p_house strong {
     color: #ff1313;
 }
 
-.gryff:hover .p_casas {
+.gryff:hover .p_house {
     opacity: 1;
 }
 
-.raven .p_casas strong {
+.raven .p_house strong {
     color: #6C86E2;
 }
 
-.raven:hover .p_casas {
+.raven:hover .p_house {
     opacity: 1;
 }
 
-.sly .p_casas strong {
+.sly .p_house strong {
     color: #3cc43c;
 }
 
-.sly:hover .p_casas {
+.sly:hover .p_house {
     opacity: 1;
 }
 
-.huffle .p_casas strong {
+.huffle .p_house strong {
     color: #fadb54;
 }
 
-.huffle:hover .p_casas {
+.huffle:hover .p_house {
     opacity: 1;
 }
 
-.botao {
+.btn_div {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 15px;
+    cursor: pointer;
 }
 
-.teste {
+.discover_btn {
     width: 110px;
     height: 60px;
     background-color: #737fa5;
@@ -115,9 +116,9 @@ img {
     font-size: 18px;
     font-family:'Nunito', sans-serif; 
     color: #ffffff;
+    cursor: pointer;
 }
 
-.teste:hover {
+.discover_btn:hover {
     background-color: #646e90;
-    border-radius: 20px;
 }
